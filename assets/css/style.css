@@ -9417,7 +9417,12 @@ body.sal-disabled [data-sal|='flip'] {
 }
 
 .edu-header .logo a img {
-  max-height: 35px;
+  /* max-height: 50px; */
+  height:100%;
+}
+.edu-header .logo a span{
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 1199px) {
