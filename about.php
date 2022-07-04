@@ -1,5 +1,6 @@
 <?php
 $title = "About Us";
+$btitle = "About Us";
  ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -40,51 +41,7 @@ $title = "About Us";
 
         <!-- body will go here (start) -->
 
-        <!-- breadcrumb (start) -->
-        <div class="edu-breadcrumb-area breadcrumb-style-1 ptb--60 ptb_md--40 ptb_sm--40 bg-image">
-            <div class="container eduvibe-animated-shape">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="breadcrumb-inner text-start">
-                            <div class="page-title">
-                                <h3 class="title">About Us-1</h3>
-                            </div>
-                            <nav class="edu-breadcrumb-nav">
-                                <ol class="edu-breadcrumb d-flex justify-content-start liststyle">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="separator"><i class="ri-arrow-drop-right-line"></i></li>
-                                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                        <div class="shape-image shape-image-1">
-                            <img src="assets/images/shapes/shape-11-07.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-2">
-                            <img src="assets/images/shapes/shape-01-02.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-3">
-                            <img src="assets/images/shapes/shape-03.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-4">
-                            <img src="assets/images/shapes/shape-13-12.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-5">
-                            <img src="assets/images/shapes/shape-36.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-6">
-                            <img src="assets/images/shapes/shape-05-07.png" alt="Shape Thumb" />
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <!-- breadcrumb (end) -->
+        
 
         <!-- about - who we are (start) -->
         <div class="home-three-about edu-about-area about-style-4 bg-color-white edu-section-gapBottom">
@@ -125,6 +82,85 @@ $title = "About Us";
         </div>
         <!-- about - who we are (end) -->
 
+        <!-- counter (start) -->
+        <div class="container">
+                <div class="counterup-style-2 bg-color-primary radius-small ptb--80 ">
+                    <div class="row g-5">
+                        <!-- Start Single Counter  -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 line-separator">
+                            <div class="edu-counterup-2 text-center">
+                                <div class="inner">
+                                    <div class="icon">
+                                        <i class="icon-student-read"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="counter"><span class="odometer" data-count="449">00</span>
+                                            <span class="after-icon">+</span>
+                                        </h3>
+                                        <span class="subtitle">Students Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Counter  -->
+
+                        <!-- Start Single Counter  -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 line-separator">
+                            <div class="edu-counterup-2 text-center">
+                                <div class="inner">
+                                    <div class="icon">
+                                        <i class="icon-trophy"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="counter"><span class="odometer" data-count="10">00</span>
+                                            <span class="after-icon">+</span>
+                                        </h3>
+                                        <span class="subtitle">Years of Establishment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Counter  -->
+
+                        <!-- Start Single Counter  -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 line-separator">
+                            <div class="edu-counterup-2 text-center">
+                                <div class="inner">
+                                    <div class="icon">
+                                        <i class="icon-Open-book"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="counter"><span class="odometer" data-count="12">00</span>
+                                            <span class="after-icon">+</span>
+                                        </h3>
+                                        <span class="subtitle">Course</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Counter  -->
+
+                        <!-- Start Single Counter  -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 line-separator">
+                            <div class="edu-counterup-2 text-center">
+                                <div class="inner">
+                                    <div class="icon">
+                                        <i class="icon-account-circle-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="counter"><span class="odometer" data-count="12">00</span>
+                                            <span class="after-icon">+</span>
+                                        </h3>
+                                        <span class="subtitle">Staff</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Counter  -->
+                    </div>
+                </div>
+            </div>
+        <!-- counter (end) -->
 
         <!-- Gallery (start) -->
         <div class="eduvibe-home-three-event edu-event-area bg-color-white edu-section-gap">
