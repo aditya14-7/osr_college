@@ -35,14 +35,13 @@ $btitle = "Contact Us";
 
 
 
-
-
-        <!-- body will go here (start) -->
-
-
         <!-- breadcrumb start -->
         <?php include 'home_include/breadcrumd.php'; ?>
         <!-- brandcrumd end -->
+
+
+
+        <!-- body will go here (start) -->
 
 
         <div class="edu-contact-us-area eduvibe-contact-us edu-section-gap bg-color-white">
