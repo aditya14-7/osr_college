@@ -17,10 +17,10 @@
                         <ul class="submenu">
                             <li><a href="about.php">About College</a></li>
                             <li><a href="vision.php">Vision & Mission</a></li>
-                            <li><a href="#">Director's Desk</a></li>
+                            <li><a href="director.php">Director's Desk</a></li>
                             <li><a href="#">Principal's Desk</a></li>
                             <li><a href="#">Previous Principals</a></li>
-                            <li><a href="#">Achievements</a></li>
+                            <li><a href="achievements.php">Achievements</a></li>
                         </ul>
                     </li>
 
