@@ -1,3 +1,6 @@
+<?php
+$title = "About Us";
+ ?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -29,6 +32,9 @@
         <!-- mobile menu end -->
 
 
+        <!-- breadcrumb start -->
+        <?php include 'home_include/breadcrumd.php'; ?>
+        <!-- brandcrumd end -->
 
 
 
