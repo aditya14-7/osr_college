@@ -1,6 +1,6 @@
 <?php
-$title = "College Development Cell";
-$btitle = "College Development Cell";
+$title = "Academic Calender";
+$btitle = "Academic Calender";
  ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -48,8 +48,8 @@ $btitle = "College Development Cell";
                    <div class="row g-5">
                        <div class="col-lg-12">
                            <div class="section-title text-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                               <span class="pre-title">College Development Cell</span>
-                               <h3 class="title">College Development Cell</h3>
+                               <span class="pre-title">Academic Calender</span>
+                               <h3 class="title">Academic Calender</h3>
                            </div>
                        </div>
                    </div>
@@ -64,18 +64,16 @@ $btitle = "College Development Cell";
                                         <thead>
                                             <tr>
                                                 <th>S. No.</th>
-                                                <th>Name</th>
-                                                <th>Department</th>
-                                                <th>Post</th>
+                                                <th>File</th>
+                                                <th>Session</th>
                                             </tr>
                                         </thead>
 
                                         <tbody>
                                             <tr>
                                                 <td>1. </td>
-                                                <td>Teacher name</td>
-                                                <td>Department name</td>
-                                                <td>Designation</td>
+                                                <td><a href="#" target="_blank">Click here to view</a></td>
+                                                <td>2020-21</td>
                                             </tr>
                                         </tbody>
                                      </table>

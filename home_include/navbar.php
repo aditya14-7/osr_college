@@ -26,30 +26,30 @@
 
                     <li class="has-droupdown"><a href="#">Academics</a>
                         <ul class="submenu">
-                            <li><a href="#">Admission</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Academic Calendar</a></li>
-                            <li><a href="#">Fee Structure</a></li>
-                            <li><a href="#">Teaching Staff</a></li>
-                            <li><a href="#">Non-Teaching Staff</a></li>
-                            <li><a href="#">Time-Table</a></li>
+                            <li><a href="admission.php">Admission</a></li>
+                            <li><a href="course.php">Courses</a></li>
+                            <li><a href="acal.php">Academic Calendar</a></li>
+                            <li><a href="fee.php">Fee Structure</a></li>
+                            <li><a href="tech.php">Teaching Staff</a></li>
+                            <li><a href="ntech.php">Non-Teaching Staff</a></li>
+                            <li><a href="time-table.php">Time-Table</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown"><a href="#">Departments</a>
                         <ul class="submenu">
-                                <li ><a href="#">Science</a></li>
-                                <li><a href="#">Arts</a></li>
+                                <li ><a href="science.php">Science</a></li>
+                                <li><a href="art.php">Arts</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown"><a href="#">Students Support</a>
                         <ul class="submenu">
-                            <li ><a href="#">Alumni Management</a></li>
-                            <li><a href="#">Regulations</a></li>
+                            <li ><a href="alumni.php">Alumni Management</a></li>
+                            <li><a href="regulation.php">Regulations</a></li>
                             <!-- <li><a href="#">National Cadet Corps</a></li>
                             <li><a href="#">National Service Scheme</a></li> -->
-                            <li><a href="#">Canteen</a></li>
-                            <li><a href="#">Hostels</a></li>
-                            <li><a href="#">24*7 Internet</a></li>
+                            <li><a href="canteen.php">Canteen</a></li>
+                            <li><a href="hostel.php">Hostels</a></li>
+                            <li><a href="internet.php">24*7 Internet</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown"><a href="#">Committees & Cells</a>

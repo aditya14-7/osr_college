@@ -1,5 +1,6 @@
 <?php
 $title = "Gallery";
+$btitle = "Gallery";
  ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -39,10 +40,11 @@ $title = "Gallery";
 
 
 
-                <!-- breadcrumb Start -->
+                <!-- breadcrumb start -->
+                <?php include 'home_include/breadcrumd.php'; ?>
+                <!-- brandcrumd end -->
 
-                <!-- breadcrumb end -->
-
+                
                 <div class="edu-gallery-grid-area masonary-wrapper-activation edu-section-gap bg-image bg-image--25 overflow-hidden">
                     <div class="wrapper">
                         <div class="container">

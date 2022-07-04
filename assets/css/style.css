@@ -25506,3 +25506,23 @@ Gallery Item
 }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+
+
+.my-tbl th{
+  border: 1px solid white;
+  padding-left: 10px;
+}
+.my-tbl td{
+  border:1px solid black;
+}
+
+.my-tbl thead tr{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+
+
+
