@@ -1,4 +1,4 @@
-<header class="edu-header  header-sticky header-transparent header-style-2 header-default ">
+<header class="edu-header disable-transparent  header-sticky">
     <div class="row align-items-center">
         <div class="col-sm-1 col-6">
             <div class="logo">
@@ -15,8 +15,8 @@
                     <li><a href="#">Home</a></li>
                     <li class="has-droupdown"><a href="#">About</a>
                         <ul class="submenu">
-                            <li><a href="#">About College</a></li>
-                            <li><a href="#">Vision & Mission</a></li>
+                            <li><a href="about.php">About College</a></li>
+                            <li><a href="vision.php">Vision & Mission</a></li>
                             <li><a href="#">Director's Desk</a></li>
                             <li><a href="#">Principal's Desk</a></li>
                             <li><a href="#">Previous Principals</a></li>
