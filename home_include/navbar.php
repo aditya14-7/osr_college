@@ -12,7 +12,7 @@
         <div class="col-sm-9 d-none d-xl-block">
             <nav class="mainmenu-nav d-none d-lg-block">
                 <ul class="mainmenu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li class="has-droupdown"><a href="#">About</a>
                         <ul class="submenu">
                             <li><a href="about.php">About College</a></li>
@@ -54,12 +54,12 @@
                     </li>
                     <li class="has-droupdown"><a href="#">Committees & Cells</a>
                         <ul class="submenu">
-                            <li><a href="shop.html">Placement/Career Counselling Cell</a></li>
-                            <li><a href="product-details.html">College Developement Committee</a></li>
+                            <li><a href="pc.php">Placement/Career Counselling Cell</a></li>
+                            <li><a href="cdc.php">College Developement Committee</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>

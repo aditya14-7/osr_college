@@ -1,3 +1,8 @@
+<?php
+$title = "Template";
+$btitle = "Template";
+ ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -27,6 +32,12 @@
         <!-- mobile menu start -->
         <?php include 'home_include/mobile_navbar.php'; ?>
         <!-- mobile menu end -->
+
+
+
+        <!-- breadcrumb start -->
+        <?php include 'home_include/breadcrumd.php'; ?>
+        <!-- brandcrumd end -->
 
 
 

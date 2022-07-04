@@ -1,5 +1,5 @@
 <?php
-$title = "Vision and Mission";
+$title = "Placement Cell";
  ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -57,7 +57,8 @@ $title = "Vision and Mission";
 
 
 
-    <!-- JS ============================================ -->
+    <!-- JS
+============================================ -->
 
 
 <?php include 'home_include/footer_link.php'; ?>
