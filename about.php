@@ -273,21 +273,6 @@ $btitle = "About Us";
 
                     </div>
                 </div>
-
-                <!-- <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-03.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-3">
-                        <img src="assets/images/shapes/shape-13-05.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-4">
-                        <img src="assets/images/shapes/shape-05-01.png" alt="Shape Thumb" />
-                    </div>
-                </div> -->
             </div>
         </div>
         <!-- Gallery (end) -->

@@ -286,14 +286,7 @@ $title = "Home";
                     <!-- End Service Grid  -->
 
                 </div>
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-19-02.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-21.png" alt="Shape Thumb" />
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -332,10 +325,7 @@ $title = "Home";
                         </div>
                     </div>
                 </div>
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1"><img src="assets/images/shapes/shape-03-08.png" alt="Shape Thumb" /></div>
-                    <div class="shape-image shape-image-2"><img src="assets/images/shapes/shape-27.png" alt="Shape Thumb" /></div>
-                </div>
+                
             </div>
         </div>
 
@@ -536,23 +526,7 @@ $title = "Home";
                             </div>
                         </div>
                     </div>
-                    <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                        <div class="shape-image shape-image-1">
-                            <img src="assets/images/shapes/shape-07.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-2">
-                            <img src="assets/images/shapes/shape-04.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-3">
-                            <img src="assets/images/shapes/shape-28.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-4">
-                            <img src="assets/images/shapes/shape-03-09.png" alt="Shape Thumb" />
-                        </div>
-                        <div class="shape-image shape-image-5">
-                            <img src="assets/images/shapes/shape-15-03.png" alt="Shape Thumb" />
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -583,17 +557,7 @@ $title = "Home";
                         </div>
                     </div>
                 </div>
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-09-01.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-04-05.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-3">
-                        <img src="assets/images/shapes/shape-13-02.png" alt="Shape Thumb" />
-                    </div>
-                </div>
+                
 
             </div>
         </div>
@@ -696,15 +660,7 @@ $title = "Home";
                         </div>
                     </div>
                 </div>
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape shape-1"><span class="shape-dot"></span></div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-11-04.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-3">
-                        <img src="assets/images/shapes/shape-25-01.png" alt="Shape Thumb" />
-                    </div>
-                </div>
+                
             </div>
         </div>
         <!-- End Accordion Area  -->
@@ -817,20 +773,7 @@ $title = "Home";
                     </div>
                 </div>
 
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-04-03.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-08.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-3">
-                        <img src="assets/images/shapes/shape-19-03.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-4">
-                        <img src="assets/images/shapes/shape-16-01.png" alt="Shape Thumb" />
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -947,20 +890,7 @@ $title = "Home";
                     </div>
                 </div>
 
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-03.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-3">
-                        <img src="assets/images/shapes/shape-13-05.png" alt="Shape Thumb" />
-                    </div>
-                    <div class="shape-image shape-image-4">
-                        <img src="assets/images/shapes/shape-05-01.png" alt="Shape Thumb" />
-                    </div>
-                </div>
+               
             </div>
         </div>
         <!-- End Event Area  -->

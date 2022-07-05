@@ -69,15 +69,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="shape-dot-wrapper shape-wrapper d-md-block d-none">
-                <div class="shape-image shape-image-1">
-                    <img src="assets/images/shapes/shape-21-01.png" alt="Shape Thumb" />
-                </div>
-                <div class="shape-image shape-image-2">
-                    <img src="assets/images/shapes/shape-35.png" alt="Shape Thumb" />
-                </div>
-            </div>
         </div>
     </div>
     <div class="copyright-area copyright-default">

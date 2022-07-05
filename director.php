@@ -49,14 +49,14 @@ $btitle = "Director's Desk";
         <div class="home-three-about edu-about-area about-style-4 bg-color-white edu-section-gapBottom">
             <div class="container eduvibe-animated-shape">
                 <div class="row g-lg-5 g-md-5 g-sm-5">
-                    <div class="col-lg-12 col-xl-6">
-                        <div class="gallery-wrapper">
+                    <div class="col-lg-12 col-xl-4">
+                        <div class="">
                             <img class="image-1" src="assets/images/other_images/school-2.jpg" alt="About Images">
                             <!-- <img class="image-2" src="" alt="About Images"> -->
                             <!-- <img class="image-3" data-parallax='{"x": 0, "y": -120}' src="assets/images/about/about-05/about-group-03.jpg" alt="About Images"> -->
                         </div>
                     </div>
-                    <div class="col-lg-12 col-xl-6">
+                    <div class="col-lg-12 col-xl-8">
                         <div class="inner mt_mobile--40">
                             <div class="section-title text-start" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 

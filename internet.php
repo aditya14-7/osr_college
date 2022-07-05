@@ -73,10 +73,7 @@ $btitle = "24 &times; 7 Internet";
                         </div>
                     </div>
                 </div>
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1"><img src="assets/images/shapes/shape-03-08.png" alt="Shape Thumb" /></div>
-                    <div class="shape-image shape-image-2"><img src="assets/images/shapes/shape-27.png" alt="Shape Thumb" /></div>
-                </div>
+                
             </div>
         </div>
         <!-- body will go here (end) -->
