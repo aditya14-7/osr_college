@@ -49,20 +49,16 @@ $btitle = "Vision & Mission";
         <div class=" eduvibe-home-four-about edu-about-area about-style-2 edu-section-gap bg-color-white">
             <div class="container eduvibe-animated-shape">
                 <div class="row row--50">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="about-image-gallery">
                             <div class="eduvibe-about-1-img-wrapper">
-                                <img class="image-1" src="assets/images/about/about-07/about-image-01.png" alt="About Images" />
+                                <img class="image-1" src="assets/images/other_images/mission.svg" alt="About Images" />
+                                <!-- <div class="circle-image"><span></span></div> -->
                                 <span class="eduvibe-about-blur"><img src="assets/images/about/about-07/about-blur.png" alt="About Blur" /></span>
-                            </div>
-                            <div class="circle-image-wrapper">
-                                <img class="image-2" src="assets/images/about/about-07/about-image-02.png" alt="About Images" />
-                                <div class="circle-image"><span></span></div>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div class="inner mt_md--40 mt_sm--40">
                             <div class="section-title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 

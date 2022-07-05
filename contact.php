@@ -60,22 +60,7 @@ $btitle = "Contact Us";
                                <div class="row g-5">
 
 
-                                   <!-- Start Contact Info  -->
-                                   <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                       <div class="contact-address-card-1 website">
-                                           <div class="inner">
-                                               <div class="icon">
-                                                   <i class="ri-global-line"></i>
-                                               </div>
-                                               <div class="content">
-                                                   <h6 class="title">Our Website</h6>
-                                                   <p><a href="https://example.com/" target="_blank">www.example.com</a></p>
-                                                   <p><a href="https://themeforest.net/" target="_blank">www.theme.net</a></p>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div> -->
-                                   <!-- End Contact Info  -->
+                                
 
                                    <!-- Start Contact Info  -->
                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
