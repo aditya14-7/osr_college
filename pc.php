@@ -1,7 +1,13 @@
 <?php
-$title = "Placement Cell";
-$btitle = "Placement Cell";
- ?>
+$title = "Committee & Cell";
+$btitle = "Committee & Cell";
+
+include 'admin/connection.php';
+$qc="SELECT * FROM tbl_commitee";
+$resqc=mysqli_query($dbCon,$qc);
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -43,67 +49,112 @@ $btitle = "Placement Cell";
          <!-- body will go here (start) -->
 
 
-        <div class="edu-contact-us-area eduvibe-contact-us edu-section-gap bg-color-white">
+        <div class="edu-contact-us-area bg-color-white">
                <div class="container eduvibe-animated-shape">
-                   <div class="row g-5">
-                       <div class="col-lg-12">
-                           <div class="section-title text-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                               <span class="pre-title">Placement Cell</span>
-                               <h3 class="title">Placement Cell</h3>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="row g-5 mt--20">
-                       <div class="col-lg-12">
+                
                            <div class="contact-info pr--70 pr_lg--0 pr_md--0 pr_sm--0">
                                <div class="row g-5">
 
                                    <!-- Start Contact Info  -->
                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                                     <table class="my-tbl">
-                                        <thead>
-                                            <tr>
-                                                <th>S. No.</th>
-                                                <th>Name</th>
-                                                <th>Department</th>
-                                                <th>Post</th>
-                                            </tr>
-                                        </thead>
+                                    
+                                                                           
+                                                <?php
 
-                                        <tbody>
-                                            <tr>
-                                                <td>1. </td>
-                                                <td>Teacher name</td>
-                                                <td>Department name</td>
-                                                <td>Designation</td>
-                                            </tr>
-                                        </tbody>
-                                     </table>
-                                   </div>
+                                        $c=1;
+                                        while($rowqc=mysqli_fetch_array($resqc))
+                                        {
+                                        ?>
+
+                                                <!-- faq 1 -->
+                                                <div class="row">
+                                                    <div class="col-sm-12 pb-4">
+                                                    <p>
+                                                        <a class="faq-btn d-block p-3 w-100 " id="btn1" data-bs-toggle="collapse" href="#faq<?php echo $c; ?>" role="button" aria-expanded="false" aria-controls="faq<?php echo $c; ?>">
+                                                        <?php
+                                                    echo $rowqc['committee_name'];
+                                                        ?>
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="faq<?php echo $c; ?>">
+                                                        <div class="card card-body">
+                                                        
+                                                            <!-- ======table start====== -->
+                                                        <div class="row">
+                                                            <div class="col-sm-12 p-5 table-responsive">
+
+                                                            
+                                                            <table class="table table-hover table-bordered my-tbl">
+                                                            <thead>
+                                                                <tr>
+                                                                <th scope="col">S. No.</th>
+                                                                <th scope="col">Name</th>
+                                                                <th scope="col">Department</th>
+                                                                <th scope="col">Post</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                
+                                                        <?php
+                                                                        $cid=$rowqc['cc_id'];
+                                                                    $q_pcell="select * from tbl_commitee_member left join tbl_department on tbl_commitee_member.dept_id=tbl_department.dept_id  where tbl_commitee_member.cc_id='$cid'";
+
+                                                                    $res_commitee=mysqli_query($dbCon,$q_pcell);
+                                                            $sr=1;
+                                                                while($row_cm=mysqli_fetch_array($res_commitee))
+                                                                {
+                                                                    ?>
+
+
+
+
+                                                                <tr class="text-center">
+                                                                    <td style="text-align:center"><?php echo $sr; $sr++; ?></td>
+                                                                    <td style="text-align:center"><?php echo $row_cm['mem_name']; ?></td>
+                                                                    <td style="text-align:center"><?php echo $row_cm['dept_name']; ?></td>
+                                                                    <td style="text-align:center"><?php echo $row_cm['mem_deg']; ?></td>
+                                                                </tr>
+                                                                
+
+
+
+                                                                
+                                                    <?php
+                                                        }
+                                                    ?>
+                                                    
+                                                </tbody>
+                                                
+                                                </table>
+
+
+                                                
+                                            
+
+
+                                                </div>
+                                            </div>
+                                            <!-- ======table end====== -->
+
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                
+
+                                                <?php
+                                                            $c++;  }
+                                                        ?>
+                                            
+                                            
+                                                
 
                                    <!-- End Contact Info  -->
-
-                               
 
 
                                </div>
                            </div>
-                       </div>
-                   </div>
-
-                   <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                       <div class="shape-image scene shape-image-1">
-                           <span data-depth="-2.2">
-                               <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb">
-                           </span>
-                       </div>
-                       <div class="shape-image shape-image-2">
-                           <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb">
-                       </div>
-                       <div class="shape-image shape-image-3">
-                           <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb">
-                       </div>
-                   </div>
+                    
                </div>
            </div>
 

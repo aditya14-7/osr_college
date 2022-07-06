@@ -1,6 +1,23 @@
 <?php
 $title = "Home";
- ?>
+
+include('admin/connection.php');
+
+$qslider="select * from tbl_slider order by slider_id desc";
+$resslider=mysqli_query($dbCon,$qslider);
+
+$qnotice="select * from tbl_notice order by file_id desc";
+$resnotice=mysqli_query($dbCon,$qnotice);
+
+$qteacher="select * from tbl_teacher order by tech_id desc";
+$resteacher=mysqli_query($dbCon,$qteacher);
+
+$qgal="SELECT * FROM `tbl_gallery` order by gal_id desc limit 10";
+$resgal=mysqli_query($dbCon,$qgal);
+
+
+
+?>
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -41,27 +58,62 @@ $title = "Home";
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <?php
+                                $resslide=mysqli_query($dbCon,$qslider);
+                                    $c=mysqli_num_rows($resslider);
+                                    $i=1;
+                                    while($i<$c)
+                                    {
+                                ?>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="<?php  echo $i; ?>" aria-label="Slide <?php  echo $i+1; ?>"></button>
+
+                            <?php
+
+
+                            $i++; }
+                            ?>
                         </div>
                         <div class="carousel-inner mt-3 mt-sm-0">
-                          <div class="carousel-item active">
-                            <img src="assets/images/slider/school-1.jpg" class="d-block w-100" alt="...">
+
+                        <?php
+                            $sc=1;
+                            while($rowslider=mysqli_fetch_array($resslider))
+                            {
+                            if($sc==1)
+                            {
+                                ?>
+
+                        <div class="carousel-item active">
+                            <img src="admin/slider/<?php echo $rowslider['pic']; ?>" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="content text-start">
-                                    <h1 class="title text-white" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800" >Education Is About Academic Excellence</h1>
-                                    <a class="edu-btn text-white" href="#" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">Get Started Today <i class="icon-arrow-right-line-right"></i></a>
+                                    <h1 class="title text-white" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800" ><?php echo $rowslider['text1']; ?></h1>
+                                    <a class="edu-btn text-white" href="about.php" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">Know More<i class="icon-arrow-right-line-right"></i></a>
                                 </div>
                             </div>
                           </div>
-                          <div class="carousel-item">
-                            <img src="assets/images/slider/school-2.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="content text-start">
-                                    <h1 class="title text-white" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">Education Is About Academic Excellence</h1>
-                                    <a class="edu-btn text-white" href="#" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">Get Started Today <i class="icon-arrow-right-line-right"></i></a>
-                                </div>
-                            </div>
-                          </div>
+
+
+                            <?php
+                                    }
+                                    else
+                                    {
+                                        ?>
+                                         <div class="carousel-item">
+                                                <img src="admin/slider/<?php echo $rowslider['pic']; ?>" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <div class="content text-start">
+                                                        <h1 class="title text-white" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800"><?php echo $rowslider['text1']; ?></h1>
+                                                        <a class="edu-btn text-white" href="about.php" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">Know More <i class="icon-arrow-right-line-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                <?php
+                                    }
+                                    $sc=0; 
+                                    }
+                                ?>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -433,6 +485,9 @@ $title = "Home";
                     <div class="row g-5 mt--25">
 
                         <div class="owl-carousel teacher-carousel owl-theme">
+
+                           
+                                    
                             <div class="item">
                                   <!-- Start Single Card  -->
                                     <div class="col-12 col-sm-12 col-xl-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
@@ -848,101 +903,44 @@ $title = "Home";
                 </div>
                 <div class="row g-5 mt--20">
                       <div class="owl-carousel gallery-carousel owl-theme">
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                                <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
+                      <?php
+                            $resgal=mysqli_query($dbCon,$qgal);
+                            while($rowgal=mysqli_fetch_array($resgal))
+                            {
+                            ?>
+                                <div class="item">
+                                    <!-- Start Event Grid   -->
+                                    <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="edu-event event-grid-1 bg-shade radius-small">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="admin/gallery/<?php echo $rowgal['pic']; ?>" class="fancybox" data-fancybox="gallery">
+                                                            <img src="admin/gallery/<?php echo $rowgal['pic']; ?>" style="height:250px;" alt="Event Images">
+                                                    </a>
+                                                    <div class="top-position status-group left-top">
+                                                        <span class="eduvibe-status status-06"><?php echo $rowgal['date']; ?> </span>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <ul class="event-meta">
+                                                        <li><i class="icon-arrow-right-line-right"></i><?php echo $rowgal['text1']; ?></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Event Grid   -->
+                                    </div>
+                                <?php
+                            }
+                        ?>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
+
+                      
+
+                  
 
                     </div>
                 </div>

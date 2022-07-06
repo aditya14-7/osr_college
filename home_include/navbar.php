@@ -45,19 +45,19 @@
                         <ul class="submenu">
                             <li ><a href="alumni.php">Alumni Management</a></li>
                             <li><a href="regulation.php">Regulations</a></li>
-                            <!-- <li><a href="#">National Cadet Corps</a></li>
-                            <li><a href="#">National Service Scheme</a></li> -->
+
                             <li><a href="canteen.php">Canteen</a></li>
                             <li><a href="hostel.php">Hostels</a></li>
                             <li><a href="internet.php">24*7 Internet</a></li>
                         </ul>
                     </li>
-                    <li class="has-droupdown"><a href="#">Committees & Cells</a>
+                    <li><a href="pc.php">Committees & Cells</a></li>
+                    <!-- <li class="has-droupdown"><a href="#"></a>
                         <ul class="submenu">
                             <li><a href="pc.php">Placement/Career Counselling Cell</a></li>
                             <li><a href="cdc.php">College Developement Committee</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
@@ -67,7 +67,7 @@
             <div class="header-right d-flex justify-content-end">
                 <div class="header-menu-bar">
                     <div class="quote-icon quote-user d-none d-md-block ml--15 ml_sm--5">
-                        <a class="edu-btn btn-medium left-icon header-button" href="#"><i class="ri-user-line"></i>Admin Login</a>
+                        <a class="edu-btn btn-medium left-icon header-button" href="admin/"><i class="ri-user-line"></i>Admin Login</a>
                     </div>
                     <div class="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
                         <a class="white-box-icon" href="login-register.html"><i class="ri-user-line"></i></a>

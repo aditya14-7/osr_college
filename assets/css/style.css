@@ -25524,5 +25524,8 @@ Gallery Item
 }
 
 
-
+.faq-btn{
+  background-color: var(--color-secondary-alt);
+  border: 2px solid var(--color-secondary);
+}
 
