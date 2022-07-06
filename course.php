@@ -238,19 +238,7 @@ $btitle = "Courses";
                        </div>
                    </div>
 
-                   <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                       <div class="shape-image scene shape-image-1">
-                           <span data-depth="-2.2">
-                               <img src="assets/images/shapes/shape-04-01.png" alt="Shape Thumb">
-                           </span>
-                       </div>
-                       <div class="shape-image shape-image-2">
-                           <img src="assets/images/shapes/shape-02-08.png" alt="Shape Thumb">
-                       </div>
-                       <div class="shape-image shape-image-3">
-                           <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb">
-                       </div>
-                   </div>
+                   
                </div>
            </div>
 

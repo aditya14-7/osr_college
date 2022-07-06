@@ -1,11 +1,8 @@
 <?php
-$title = "Admission";
-$btitle = "Admission";
+$title = "Principal's Desk";
+$btitle = "Principal's Desk";
  ?>
-<<<<<<< HEAD
 
-=======
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -37,47 +34,41 @@ $btitle = "Admission";
         <!-- mobile menu end -->
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
         <!-- breadcrumb start -->
         <?php include 'home_include/breadcrumd.php'; ?>
         <!-- brandcrumd end -->
 
 
 
-<<<<<<< HEAD
 
 
         <!-- body will go here (start) -->
-
-
-
-
-        <!-- body will go here (end) -->
-
-
-=======
-        <!-- body will go here (start) -->
-
-        
 
         <!-- about - who we are (start) -->
         <div class="home-three-about edu-about-area about-style-4 bg-color-white edu-section-gapBottom">
             <div class="container eduvibe-animated-shape">
                 <div class="row g-lg-5 g-md-5 g-sm-5">
-                
-                    <div class="col-lg-12 col-xl-12">
+                    <div class="col-lg-12 col-xl-4">
+                        <div class="">
+                            <img class="image-1" src="assets/images/other_images/school-2.jpg" alt="About Images">
+                            <!-- <img class="image-2" src="" alt="About Images"> -->
+                            <!-- <img class="image-3" data-parallax='{"x": 0, "y": -120}' src="assets/images/about/about-05/about-group-03.jpg" alt="About Images"> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-xl-8">
                         <div class="inner mt_mobile--40">
-                          
+                            <div class="section-title text-start" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                
+                                <h3 class="title mt-5">From the Principal's Desk</h3>
+                            </div>
                             <div class="feature-style-6 mt--40">
                                 <div class="edu-feature-list color-variation-1" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
                                     <div class="content">
-                                        <h6 class="title">We Offer The Best Carrier</h6>
+                                        
                                         <p class="description">
-                                            O.S.R. Group of Colleges Lucknow is located on Mahmudabad Road, 20 km from state capital Lucknow. m., 25 km from district headquarter Barabaki and 30 km from Mahmudabad. m. The important and prestigious town of Barabanki district is situated in Kursi. The college is affiliated to Dr. Ram Manohar Lohia Avadh University. This college has been established for the educational and social development of this area. The college is well equipped with the latest equipment/resources and laboratory. Teaching facility for all subjects of Arts and Science stream is available in the college. Wi-Fi-equipped facilities: There is a well-equipped computer lab and a rich library of art, religion, culture as well as all the subjects being run.
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor laboriosam provident soluta sapiente eum corporis quasi dicta sit harum adipisci voluptatum deleniti, nihil similique, laudantium id a quidem? Non ut alias consectetur doloribus magni in, modi voluptas culpa quidem sed commodi molestiae voluptatum neque, error cum incidunt adipisci omnis reprehenderit totam ipsa? Molestias id necessitatibus praesentium alias. Qui neque consequatur expedita blanditiis eum beatae quisquam et ipsum natus! Eaque eligendi nostrum laborum, sit fugiat libero, quo assumenda fugit perferendis hic commodi officiis amet provident molestiae aut? Eligendi dignissimos, facilis doloremque voluptate distinctio laudantium nam mollitia blanditiis optio adipisci ullam fugit!
                                         </p>
                                     </div>
                                 </div>
@@ -93,8 +84,10 @@ $btitle = "Admission";
         </div>
         <!-- about - who we are (end) -->
 
-      
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
+
+        <!-- body will go here (end) -->
+
+
 
 
         <!-- footer start -->
@@ -109,11 +102,6 @@ $btitle = "Admission";
 
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
     <!-- JS
 ============================================ -->
 

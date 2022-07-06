@@ -154,7 +154,14 @@ $resqc=mysqli_query($dbCon,$qc);
 
                                </div>
                            </div>
+<<<<<<< HEAD
                     
+=======
+                       </div>
+                   </div>
+
+                   
+>>>>>>> 455decb23644ca155ca4dd973569a9ff89f5e059
                </div>
            </div>
 

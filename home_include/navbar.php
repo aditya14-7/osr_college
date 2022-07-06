@@ -18,8 +18,13 @@
                             <li><a href="about.php">About College</a></li>
                             <li><a href="vision.php">Vision & Mission</a></li>
                             <li><a href="director.php">Director's Desk</a></li>
+<<<<<<< HEAD
+                            <li><a href="principal.php">Principal's Desk</a></li>
+                            <li><a href="#">Previous Principals</a></li>
+=======
                             <li><a href="#">Principal's Desk</a></li>
                             <li><a href="prep.php">Previous Principals</a></li>
+>>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
                             <li><a href="achievements.php">Achievements</a></li>
                         </ul>
                     </li>

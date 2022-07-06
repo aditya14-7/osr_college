@@ -104,6 +104,8 @@ $btitle = "Academic Calender";
                                </div>
                            </div>
                        </div>
+<<<<<<< HEAD
+=======
                    </div> -->
 
                    <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
@@ -118,6 +120,7 @@ $btitle = "Academic Calender";
                        <div class="shape-image shape-image-3">
                            <img src="assets/images/shapes/shape-15.png" alt="Shape Thumb">
                        </div>
+>>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
                    </div>
                </div>
            </div>
