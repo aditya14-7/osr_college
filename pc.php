@@ -105,19 +105,12 @@ $resqc=mysqli_query($dbCon,$qc);
                                                                 {
                                                                     ?>
 
-
-
-
                                                                 <tr class="text-center">
                                                                     <td style="text-align:center"><?php echo $sr; $sr++; ?></td>
                                                                     <td style="text-align:center"><?php echo $row_cm['mem_name']; ?></td>
                                                                     <td style="text-align:center"><?php echo $row_cm['dept_name']; ?></td>
                                                                     <td style="text-align:center"><?php echo $row_cm['mem_deg']; ?></td>
                                                                 </tr>
-                                                                
-
-
-
                                                                 
                                                     <?php
                                                         }
@@ -143,7 +136,8 @@ $resqc=mysqli_query($dbCon,$qc);
                                                 
 
                                                 <?php
-                                                            $c++;  }
+                                                            $c++; 
+                                                         }
                                                         ?>
                                             
                                             
@@ -154,14 +148,11 @@ $resqc=mysqli_query($dbCon,$qc);
 
                                </div>
                            </div>
-<<<<<<< HEAD
-                    
-=======
+
                        </div>
                    </div>
 
                    
->>>>>>> 455decb23644ca155ca4dd973569a9ff89f5e059
                </div>
            </div>
 

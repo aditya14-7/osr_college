@@ -1,6 +1,13 @@
 <?php
 $title = "Previous Principal";
 $btitle = "Previous Principal";
+
+
+include('admin/connection.php');
+
+$q_pp = "select * from tbl_pp order by pp_id desc";
+$res_pp = mysqli_query($dbCon, $q_pp);
+
  ?>
 
 <!doctype html>
@@ -73,17 +80,25 @@ $btitle = "Previous Principal";
                                         <thead>
                                             <tr>
                                                 <th>S. No.</th>
-                                                <th>File</th>
-                                                <th>Session</th>
+                                                <th>Principal Name</th>
+                                                <th>Tenure</th>
                                             </tr>
                                         </thead>
 
                                         <tbody>
+                                            <?php
+                                            $i=1;
+                                            while($row_pp = mysqli_fetch_assoc($res_pp)){
+                                            ?>
                                             <tr>
-                                                <td>1. </td>
-                                                <td><a href="#" target="_blank">Click here to view</a></td>
-                                                <td>2020-21</td>
+                                                <td><?php echo $i; ?>. </td>
+                                                <td><a><?php echo $row_pp['pp_name']; ?></a></td>
+                                                <td><?php echo $row_pp['pp_tenure']; ?></td>
                                             </tr>
+                                            <?php
+                                            $i++;
+                                            }
+                                            ?>
                                         </tbody>
                                      </table>
                                    </div>

@@ -118,37 +118,38 @@ $btitle = "Contact Us";
                        </div>
 
                        <div class="col-lg-6">
-                           <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="">
+                           <form class="rnt-contact-form row" method="POST" action="contact_code.php">
                                <div class="col-lg-12">
                                    <div class="form-group">
-                                       <input name="contact-name" id="contact-name" type="text" class="form-control form-control-lg" placeholder="Name*">
+                                       <input name="fname" id="fname" type="text" class="form-control form-control-lg" placeholder="First Name*">
                                    </div>
                                </div>
 
                                <div class="col-lg-12">
                                    <div class="form-group">
-                                       <input type="email" class="form-control form-control-lg" id="contact-email" name="contact-email" placeholder="Email*">
+                                       <input name="lname" id="lname" type="text" class="form-control form-control-lg" placeholder="Last Name*">
                                    </div>
                                </div>
 
                                <div class="col-lg-12">
                                    <div class="form-group">
-                                       <input type="text" class="form-control form-control-lg" name="contact-phone" id="contact-phone" placeholder="Phone">
+                                       <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Email*">
                                    </div>
                                </div>
 
                                <div class="col-lg-12">
                                    <div class="form-group">
-                                       <input type="text" class="form-control form-control-lg" id="subject" name="subject" placeholder="Subject">
+                                       <input type="text" class="form-control form-control-lg" maxlength="10" minlength="10" name="mobno" id="mobno" placeholder="Phone*">
                                    </div>
                                </div>
+
                                <div class="col-lg-12">
                                    <div class="form-group">
-                                       <textarea class="form-control" name="contact-message" id="contact-message" placeholder="Your Message"></textarea>
+                                       <textarea class="form-control" name="msg" id="msg" placeholder="Your Message"></textarea>
                                    </div>
                                </div>
                                <div class="col-lg-12">
-                                   <button class="rn-btn edu-btn w-100" name="submit" type="submit">
+                                   <button class="rn-btn edu-btn w-100" type="submit">
                                        <span>Submit Now</span><i class="icon-arrow-right-line-right"></i>
                                    </button>
                                </div>

@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner text-center">
-                        <p>Copyright 2022 <a href="#">EduVibe</a> Designed By <a href="https://themeforest.net/user/devsvibe">DevsVibe</a>. All Rights Reserved</p>
+                        <p>&copy; Copyright 2022 Designed & Developed By <a href="http://www.softproindia.in/" target="_blank"> Softpro India Computer Technologies (P) Ltd.</a></p>
                     </div>
                 </div>
             </div>

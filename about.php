@@ -1,7 +1,14 @@
 <?php
 $title = "About Us";
 $btitle = "About Us";
- ?>
+
+include('admin/connection.php');
+
+$qgal="SELECT * FROM tbl_gallery order by gal_id desc limit 10";
+$resgal=mysqli_query($dbCon,$qgal);
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -162,7 +169,7 @@ $btitle = "About Us";
             </div>
         <!-- counter (end) -->
 
-        <!-- Gallery (start) -->
+        <!-- Start Event Area  -->
         <div class="eduvibe-home-three-event edu-event-area bg-color-white edu-section-gap">
             <div class="container eduvibe-animated-shape">
                 <div class="row">
@@ -175,107 +182,53 @@ $btitle = "About Us";
                 </div>
                 <div class="row g-5 mt--20">
                       <div class="owl-carousel gallery-carousel owl-theme">
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                                <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
+                      <?php
+                            $resgal=mysqli_query($dbCon,$qgal);
+                            while($rowgal=mysqli_fetch_array($resgal))
+                            {
+                            ?>
+                                <div class="item">
+                                    <!-- Start Event Grid   -->
+                                    <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="edu-event event-grid-1 bg-shade radius-small">
+                                            <div class="inner">
+                                                <div class="thumbnail">
+                                                    <a href="admin/gallery/<?php echo $rowgal['pic']; ?>" class="fancybox" data-fancybox="gallery">
+                                                            <img src="admin/gallery/<?php echo $rowgal['pic']; ?>" style="height:250px;" alt="Event Images">
+                                                    </a>
+                                                    <div class="top-position status-group left-top">
+                                                        <span class="eduvibe-status status-06"><?php echo $rowgal['date']; ?> </span>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <ul class="event-meta">
+                                                        <li><i class="icon-arrow-right-line-right"></i><?php echo $rowgal['text1']; ?></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Event Grid   -->
+                                    </div>
+                                <?php
+                            }
+                        ?>
 
-                        <div class="item">
-                          <!-- Start Event Grid   -->
-                          <div class="col-lg-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                              <div class="edu-event event-grid-1 bg-shade radius-small">
-                                  <div class="inner">
-                                      <div class="thumbnail">
-                                          <a href="assets/images/other_images/school-2.jpg" class="fancybox" data-fancybox="gallery">
-                                              <img src="assets/images/other_images/school-2.jpg" style="height:250px;" alt="Event Images">
-                                          </a>
-                                          <div class="top-position status-group left-top">
-                                              <span class="eduvibe-status status-06">04 Dec 2022</span>
-                                          </div>
-                                      </div>
-                                      <div class="content">
-                                          <ul class="event-meta">
-                                              <li><i class="icon-arrow-right-line-right"></i>About Picture</li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- End Event Grid   -->
-                        </div>
+
+                      
+
+                  
 
                     </div>
                 </div>
+
+               
             </div>
         </div>
-        <!-- Gallery (end) -->
+        <!-- End Event Area  -->
+
 
 
         <!-- body will go here (end) -->

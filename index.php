@@ -9,10 +9,10 @@ $resslider=mysqli_query($dbCon,$qslider);
 $qnotice="select * from tbl_notice order by file_id desc";
 $resnotice=mysqli_query($dbCon,$qnotice);
 
-$qteacher="select * from tbl_teacher order by tech_id desc";
+$qteacher="select * from tbl_teacher order by tech_id desc limit 5";
 $resteacher=mysqli_query($dbCon,$qteacher);
 
-$qgal="SELECT * FROM `tbl_gallery` order by gal_id desc limit 10";
+$qgal="SELECT * FROM tbl_gallery order by gal_id desc limit 10";
 $resgal=mysqli_query($dbCon,$qgal);
 
 
@@ -476,7 +476,9 @@ $resgal=mysqli_query($dbCon,$qgal);
 
                         <div class="owl-carousel teacher-carousel owl-theme">
 
-                           
+                           <?php
+                           while($row_teacher = mysqli_fetch_assoc($resteacher)){
+                           ?>
                                     
                             <div class="item">
                                   <!-- Start Single Card  -->
@@ -485,12 +487,12 @@ $resgal=mysqli_query($dbCon,$qgal);
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100" src="assets/images/course/course-01/course-01.jpg" alt="Course Meta">
+                                                        <img class="w-100" style="height: 250px;" src="admin/teacher/<?php echo $row_teacher['pic'] ?>" alt="Course Meta">
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <ul class="edu-meta meta-01">
-                                                        <li><i class="icon-Double-arrow"></i>Mentor Name</li>
+                                                        <li><i class="icon-Double-arrow"></i><?php echo $row_teacher['name'] ?></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -499,74 +501,10 @@ $resgal=mysqli_query($dbCon,$qgal);
                                     <!-- End Single Card  -->
                             </div>
 
+                            <?php
+                           }
+                            ?>
 
-                            <div class="item">
-                                  <!-- Start Single Card  -->
-                                    <div class="col-12 col-sm-12 col-xl-12" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="edu-card card-type-1 bg-white radius-small">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="#">
-                                                        <img class="w-100" src="assets/images/course/course-01/course-02.jpg" alt="Course Meta">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <ul class="edu-meta meta-01">
-                                                        <li><i class="icon-Double-arrow"></i>Mentor Name</li>
-                                                    </ul>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Card  -->
-                            </div>
-
-
-                            <div class="item">
-                                 <!-- Start Single Card  -->
-                                <div class="col-12 col-sm-12 col-xl-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                                    <div class="edu-card card-type-1 bg-white radius-small">
-                                        <div class="inner">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <img class="w-100" src="assets/images/course/course-01/course-03.jpg" alt="Course Meta">
-                                                </a>
-                                            </div>
-                                            <div class="content">
-                                                <ul class="edu-meta meta-01">
-                                                    <li><i class="icon-Double-arrow"></i>Mentor Name</li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Card  -->
-                            </div>
-
-
-                            <div class="item">
-                                  <!-- Start Single Card  -->
-                                    <div class="col-12 col-sm-12 col-xl-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="edu-card card-type-1 bg-white radius-small">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="#">
-                                                        <img class="w-100" src="assets/images/course/course-01/course-01.jpg" alt="Course Meta">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <ul class="edu-meta meta-01">
-                                                        <li><i class="icon-Double-arrow"></i>Mentor Name</li>
-                                                    </ul>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Card  -->
-                            </div>
                         </div>
 
 
@@ -576,7 +514,7 @@ $resgal=mysqli_query($dbCon,$qgal);
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="load-more-btn mt--60 text-center">
-                                <a class="edu-btn" href="course-style-3.html">View All Teachers<i
+                                <a class="edu-btn" href="tech.php">View All Teachers<i
                                         class="icon-arrow-right-line-right"></i></a>
                             </div>
                         </div>

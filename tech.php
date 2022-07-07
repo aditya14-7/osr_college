@@ -1,7 +1,14 @@
 <?php
 $title = "Teaching Staff";
 $btitle = "Teaching Staff";
- ?>
+
+include('admin/connection.php');
+
+$qteacher="select * from tbl_teacher order by tech_id desc";
+$resteacher=mysqli_query($dbCon,$qteacher);
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -55,6 +62,9 @@ $btitle = "Teaching Staff";
                    </div>
                    <div class="row g-5 mt--20">
 
+                   <?php
+                   while($row_tech = mysqli_fetch_assoc($resteacher)){
+                   ?>
                     <!-- Start Instructor Grid  -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                         <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
@@ -62,207 +72,23 @@ $btitle = "Teaching Staff";
                                 <div class="inner">
                                     <div class="thumbnail">
                                         <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-1.jpg" alt="team images">
+                                            <img src="admin/teacher/<?php echo $row_tech['pic']; ?>" style="height: 300px;" alt="team images">
                                         </a>
                                     </div>
                                     <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">James Carlson</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
+                                        <h5 class="title"><?php echo $row_tech['name']; ?></h5>
+                                        <span class="desc"><?php echo $row_tech['designation']; ?></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- End Instructor Grid  -->
+                    <?php
+                   }
+                    ?>
 
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-2.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Nancy Phipps</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible eduvibe-hover-active">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-3.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Troy Hall</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-4.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Isabelle Bruner</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-5.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Mark Ronson</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="400" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-6.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Adam Smith</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-7.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">David Bard</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
-
-                    <!-- Start Instructor Grid  -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal-delay="500" data-sal="slide-up" data-sal-duration="800">
-                        <div class="edu-instructor-grid edu-instructor-3 edu-instructor-3-visible">
-                            <div class="edu-instructor">
-                                <div class="inner">
-                                    <div class="thumbnail">
-                                        <a href="instructor-profile.html">
-                                            <img src="assets/images/instructor/instructor-03/instructor-8.jpg" alt="team images">
-                                        </a>
-                                    </div>
-                                    <div class="edu-instructor-info">
-                                        <h5 class="title"><a href="instructor-profile.html">Sophie Moore</a></h5>
-                                        <span class="desc">UI Designer</span>
-                                        <div class="team-share-info bg-transparent">
-                                            <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                            <a class="facebook" href="#"><i class="icon-Fb"></i></a>
-                                            <a class="twitter" href="#"><i class="icon-Twitter"></i></a>
-                                            <a class="youtube" href="#"><i class="icon-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Instructor Grid  -->
+                
 
                 </div>
 

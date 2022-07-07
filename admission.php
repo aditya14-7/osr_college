@@ -2,10 +2,6 @@
 $title = "Admission";
 $btitle = "Admission";
  ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -37,31 +33,12 @@ $btitle = "Admission";
         <!-- mobile menu end -->
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
         <!-- breadcrumb start -->
         <?php include 'home_include/breadcrumd.php'; ?>
         <!-- brandcrumd end -->
 
 
 
-<<<<<<< HEAD
-
-
-        <!-- body will go here (start) -->
-
-
-
-
-        <!-- body will go here (end) -->
-
-
-=======
-        <!-- body will go here (start) -->
-
-        
 
         <!-- about - who we are (start) -->
         <div class="home-three-about edu-about-area about-style-4 bg-color-white edu-section-gapBottom">
@@ -93,9 +70,6 @@ $btitle = "Admission";
         </div>
         <!-- about - who we are (end) -->
 
-      
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
-
 
         <!-- footer start -->
         <?php include 'home_include/footer.php'; ?>
@@ -105,17 +79,6 @@ $btitle = "Admission";
 
 
 
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> aca1d52af0b4536f421aec368540fd1f7b0c3d3e
-    <!-- JS
-============================================ -->
 
 
 <?php include 'home_include/footer_link.php'; ?>
