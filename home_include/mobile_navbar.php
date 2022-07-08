@@ -44,7 +44,8 @@
             </li>
             <li class="has-droupdown"><a href="#">Students Support</a>
                 <ul class="submenu">
-                    <li ><a href="alumni.php">Alumni Management</a></li>
+                    <li ><a href="alumni.php">Alumni</a></li>
+                    <li ><a href="alumni-reg.php">Alumni Registration</a></li>
                     <li><a href="regulation.php">Regulations</a></li>
                     <!-- <li><a href="#">National Cadet Corps</a></li>
                     <li><a href="#">National Service Scheme</a></li> -->

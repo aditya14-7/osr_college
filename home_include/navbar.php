@@ -43,9 +43,9 @@
                     </li>
                     <li class="has-droupdown"><a href="#">Students Support</a>
                         <ul class="submenu">
-                            <li ><a href="alumni.php">Alumni Management</a></li>
+                            <li ><a href="alumni.php">Alumni</a></li>
+                            <li ><a href="alumni-reg.php">Alumni Registration</a></li>
                             <li><a href="regulation.php">Regulations</a></li>
-
                             <li><a href="canteen.php">Canteen</a></li>
                             <li><a href="hostel.php">Hostels</a></li>
                             <li><a href="internet.php">24*7 Internet</a></li>
