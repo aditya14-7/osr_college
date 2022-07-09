@@ -20,7 +20,7 @@
                     <li><a href="vision.php">Vision & Mission</a></li>
                     <li><a href="director.php">Director's Desk</a></li>
                     <li><a href="principal.php">Principal's Desk</a></li>
-                    <li><a href="#">Previous Principals</a></li>
+                    <li><a href="prep.php">Previous Principals</a></li>
                     <li><a href="achievements.php">Achievements</a></li>
                 </ul>
             </li>
@@ -44,22 +44,15 @@
             </li>
             <li class="has-droupdown"><a href="#">Students Support</a>
                 <ul class="submenu">
-                    <li ><a href="alumni.php">Alumni</a></li>
-                    <li ><a href="alumni-reg.php">Alumni Registration</a></li>
+                    <!-- <li ><a href="alumni.php">Alumni</a></li>
+                    <li ><a href="alumni-reg.php">Alumni Registration</a></li> -->
                     <li><a href="regulation.php">Regulations</a></li>
-                    <!-- <li><a href="#">National Cadet Corps</a></li>
-                    <li><a href="#">National Service Scheme</a></li> -->
                     <li><a href="canteen.php">Canteen</a></li>
                     <li><a href="hostel.php">Hostels</a></li>
                     <li><a href="internet.php">24*7 Internet</a></li>
                 </ul>
             </li>
-            <li class="has-droupdown"><a href="#">Committees & Cells</a>
-                <ul class="submenu">
-                    <li><a href="pc.php">Placement/Career Counselling Cell</a></li>
-                    <li><a href="cdc.php">College Developement Committee</a></li>
-                </ul>
-            </li>
+            <li><a href="pc.php">Committees & Cells</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contact.php">Contact</a></li>           
         </ul>

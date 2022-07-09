@@ -212,17 +212,10 @@ if($_SESSION["user"]=="" or isset($_SESSION["user"])==null){
                                 
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="alumni.php" class="nav-link"><i class="icon-copy"></i> <span>Manage Alumni</span></a>
-                        </li>
-						<!-- <li class="nav-item nav-item-submenu">
-                            <a href="#" class="nav-link"><i class="icon-pencil"></i> <span>Manage NAAC </span></a>
-                            <ul class="nav nav-group-sub" data-submenu-title="Starter kit">
-                                <li class="nav-item"><a href="aqar.php" class="nav-link">AQAR</a></li>
-                                <li class="nav-item"><a href="ssr.php" class="nav-link">SSR</a></li>                                                         
-                            
-                            </ul>
                         </li> -->
+					
 						<li class="nav-item nav-item-submenu">
                             <a href="#" class="nav-link"><i class="icon-pencil"></i> <span>Contact Us </span></a>
                             <ul class="nav nav-group-sub" data-submenu-title="Starter kit">

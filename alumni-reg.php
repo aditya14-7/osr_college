@@ -55,11 +55,23 @@ $btitle = "Alumni Registration";
                             <form class="checkout-form" action="#">
 
                                 <div class="input-box mb--20">
-                                    <input type="text" placeholder="First name*">
+                                    <input type="text" placeholder="Name*">
                                 </div>
 
                                 <div class="input-box mb--20">
-                                    <input type="text" placeholder="Last name*">
+                                    <input type="text" placeholder="Enrollment Number*">
+                                </div>
+
+                                <div class="input-box mb--20">
+                                    <input type="text" placeholder="Phone*">
+                                </div>
+
+                                <div class="input-box mb--20">
+                                    <input type="email" placeholder="Email Address*">
+                                </div>
+
+                                <div class="input-box mb--20">
+                                    <input type="text" placeholder="Father's Name*" maxlength="10" minlength="10" name="mobile">
                                 </div>
 
                                 <div class="input-box mb--20">
@@ -70,13 +82,7 @@ $btitle = "Alumni Registration";
                                     <input type="text" placeholder="College Session attended (admission year to passing year)">
                                 </div>
                                
-                                <div class="input-box mb--20">
-                                    <input type="text" placeholder="Phone*">
-                                </div>
-
-                                <div class="input-box mb--20">
-                                    <input type="email" placeholder="Email Address*">
-                                </div>
+                            
 
                                 <div class="input-box">
                                         <textarea placeholder="Any memories of your college life (Optional)"></textarea>
