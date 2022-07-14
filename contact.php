@@ -71,8 +71,8 @@ $btitle = "Contact Us";
                                                </div>
                                                <div class="content">
                                                    <h6 class="title">Email Us</h6>
-                                                   <p><a href="mailto:eduvibe@example.com" target="_blank">eduvibe@example.com</a></p>
-                                                   <p><a href="mailto:contact@eduvibe.com" target="_blank">contact@eduvibe.com</a></p>
+                                                   <p><a href="mailto:osrgroupofcollege21@gmail.com" target="_blank">osrgroupofcollege21@gmail.com</a></p>
+                                                   <p><a href="tel:7510002012">7510002012</a></p>
                                                </div>
                                            </div>
                                        </div>
@@ -89,8 +89,8 @@ $btitle = "Contact Us";
                                                </div>
                                                <div class="content">
                                                    <h6 class="title">Call Us On</h6>
-                                                   <p><a href="tel:+2763(388)2930">+2763 (388) 2930</a></p>
-                                                   <p><a href="tel:+4875(356)2568">+4875 (356) 2568</a></p>
+                                                   <p><a href="tel:7510002013">7510002013</a></p>
+                                                   <p><a href="tel:7510002014">7510002014</a></p>
                                                </div>
                                            </div>
                                        </div>
@@ -106,7 +106,9 @@ $btitle = "Contact Us";
                                                </div>
                                                <div class="content">
                                                    <h6 class="title">Our Location</h6>
-                                                   <p>486 Normana Avenue Morningtide, 4223</p>
+                                                   <p>Kursi barabanki 
+                                                    <br>
+                                                    Pin code - 225302</p>
                                                </div>
                                            </div>
                                        </div>

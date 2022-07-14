@@ -9,7 +9,7 @@ if($_SESSION["user"]=="" or isset($_SESSION["user"])==null){
 
 ?>
 <html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -118,14 +118,14 @@ if($_SESSION["user"]=="" or isset($_SESSION["user"])==null){
                                 </span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="notification.php" class="nav-link ">
                                 <i class="icon-pencil"></i>
                                 <span>
                                     Notification
                                 </span>
                             </a>
-                        </li>								
+                        </li>-->
 						                       
                         <li class="nav-item nav-item-submenu">
                             <a href="#" class="nav-link"><i class="icon-copy"></i> <span>Manage Department</span></a>

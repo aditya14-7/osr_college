@@ -68,7 +68,15 @@ $btitle = "Principal's Desk";
                                     <div class="content">
                                         
                                         <p class="description">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor laboriosam provident soluta sapiente eum corporis quasi dicta sit harum adipisci voluptatum deleniti, nihil similique, laudantium id a quidem? Non ut alias consectetur doloribus magni in, modi voluptas culpa quidem sed commodi molestiae voluptatum neque, error cum incidunt adipisci omnis reprehenderit totam ipsa? Molestias id necessitatibus praesentium alias. Qui neque consequatur expedita blanditiis eum beatae quisquam et ipsum natus! Eaque eligendi nostrum laborum, sit fugiat libero, quo assumenda fugit perferendis hic commodi officiis amet provident molestiae aut? Eligendi dignissimos, facilis doloremque voluptate distinctio laudantium nam mollitia blanditiis optio adipisci ullam fugit!
+                                        Serving as Principal of O.S.R. Group of Colleges is as great an honor as it is a responsibility. I believe that the foundation of our future accomplishments will be to continue to provide our students with academic experiences that are rigorous, relevant and build lasting relationships. It is important that everyone who steps through our doors – staff, students, parents, and community members – are excited to be here! This attitude will allow us to embrace and meet the challenges of academic excellence in a positive and nurturing environment.
+                                        Together, there is no limit to what we can accomplish! <br>
+                                        I look forward to meeting and working with you all.
+                                        <br><br>
+                                        <strong>
+                                        Principal <br>
+                                        O.S.R. Group of Colleges
+                                        </strong>
+
                                         </p>
                                     </div>
                                 </div>

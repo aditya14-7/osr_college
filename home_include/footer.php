@@ -12,7 +12,7 @@
                         </div>
                         <p class="description">O.S.R. Group of Colleges</p>
                         <ul class="social-share">
-                            <li><a href="#"><i class="icon-Fb"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100081912910259" target="_blank"><i class="icon-Fb"></i></a></li>
                             <li><a href="#"><i class="icon-linkedin"></i></a></li>
                             <li><a href="#"><i class="icon-Pinterest"></i></a></li>
                             <li><a href="#"><i class="icon-Twitter"></i></a></li>
@@ -41,11 +41,12 @@
                         <div class="inner">
                             <div class="widget-information">
                                 <ul class="information-list">
-                                    <li><i class="icon-map-pin-line"></i>275 Quadra Street Victoria Road, New York
+                                    <li><i class="icon-map-pin-line"></i>Kursi barabanki, Pin code - 225302
                                     </li>
-                                    <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2839">+ 1 (237) 382-2839</a></li>
-                                    <li><i class="icon-phone-fill"></i><a href="tel:+1(237)382-2840">+ 1 (237) 382-2840</a></li>
-                                    <li><i class="icon-mail-line-2"></i><a target="_blank" href="mailto:yourmailaddress@example.com">yourmailaddress@example.com</a></li>
+                                    <li><i class="icon-phone-fill"></i><a href="tel:7510002012">7510002012</a></li>
+                                    <li><i class="icon-phone-fill"></i><a href="tel:7510002013">7510002013</a></li>
+                                    <li><i class="icon-phone-fill"></i><a href="tel:7510002014">7510002014</a></li>
+                                    <li><i class="icon-mail-line-2"></i><a target="_blank" href="mailto:osrgroupofcollege21@gmail.com">osrgroupofcollege21@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>

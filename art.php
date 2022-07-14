@@ -63,7 +63,15 @@ $btitle = "Arts Department";
                                     <div class="content">
                                         <h6 class="title">We Offer The Best Carrier</h6>
                                         <p class="description">
-                                            O.S.R. Group of Colleges Lucknow is located on Mahmudabad Road, 20 km from state capital Lucknow. m., 25 km from district headquarter Barabaki and 30 km from Mahmudabad. m. The important and prestigious town of Barabanki district is situated in Kursi. The college is affiliated to Dr. Ram Manohar Lohia Awadh University. This college has been established for the educational and social development of this area. The college is well equipped with the latest equipment/resources and laboratory. Teaching facility for all subjects of Arts and Science stream is available in the college. Wi-Fi-equipped facilities: There is a well-equipped computer lab and a rich library of art, religion, culture as well as all the subjects being run.
+                                        Arts courses provide an education in variety of contexts. Arts aims to offer education that is accessible to students with a wide range of educational backgrounds and professional and personal circumstances. This course offers a rich variety of subjects and helps to understand how cultural, historical, geographical, political, linguistic, and environmental forces shape the world and recognize the role of the individual within communities to effect change. The course also incorporates a variety of modes of learning and teaching.
+                                        <br>
+                                        To understand the major artistic styles and genres of Western and Non-Western art and architecture through a broad range of time periods up to the present.
+
+                                        <ul class="my-para">
+                                            Aim
+                                            <li>Compare and contrast contemporary works with their art historical antecedents.</li>
+                                            <li>Analyze works of art contextually.</li>
+                                        </ul>
                                         </p>
                                     </div>
                                 </div>

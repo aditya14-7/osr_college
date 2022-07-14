@@ -413,7 +413,7 @@ $resgal=mysqli_query($dbCon,$qgal);
                                         <i class="icon-trophy"></i>
                                     </div>
                                     <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="10">00</span>
+                                        <h3 class="counter"><span class="odometer" data-count="1">00</span>
                                             <span class="after-icon">+</span>
                                         </h3>
                                         <span class="subtitle">Years of Establishment</span>
@@ -590,14 +590,20 @@ $resgal=mysqli_query($dbCon,$qgal);
                                 <div class="edu-accordion-item">
                                     <div class="edu-accordion-header" id="headingOne">
                                         <button class="edu-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What does it take become an author?
+                                            What are the documents required for admission?
                                         </button>
                                     </div>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
                                         <div class="edu-accordion-body">
-                                            Learning management system, combines a wide range of features to present
-                                            a class setting without having the students come into a physical classroom. It all depends on the WordPress LMS plugin you go with, but
-                                            in general.
+                                            On the date of appointment, applicants will be required to bring the following documents
+                                            <ul>
+                                                <li>Admit Card</li>
+                                                <li>Common Application Form</li>
+                                                <li>Photocopy of 12th marksheet</li>
+                                                <li>Photocopy of 10th marksheet</li>
+                                                <li>Photocopy of ID Proof (School Id/ Aadhar Card/ Pan Card)</li>
+                                                <li>5 Passport size Photographs</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -605,15 +611,12 @@ $resgal=mysqli_query($dbCon,$qgal);
                                 <div class="edu-accordion-item">
                                     <div class="edu-accordion-header" id="headingTwo">
                                         <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How to Change my Password easily?
+                                            From where should I get the admission form?
                                         </button>
                                     </div>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
                                         <div class="edu-accordion-body">
-                                            Learning management system, combines a wide range of features to present
-                                            a class setting without having the students come into a physical
-                                            classroom. It all depends on the WordPress LMS plugin you go with, but
-                                            in general.
+                                            The forms are available at the college campus. The addresses are mentioned at the institute website.
                                         </div>
                                     </div>
                                 </div>
@@ -621,34 +624,17 @@ $resgal=mysqli_query($dbCon,$qgal);
                                 <div class="edu-accordion-item">
                                     <div class="edu-accordion-header" id="headingThree">
                                         <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            How to Change my Plan using PayPal?
+                                            What is the attendance requirement and when is the attendance calculated from?
                                         </button>
                                     </div>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
                                         <div class="edu-accordion-body">
-                                            Learning management system, combines a wide range of features to present
-                                            a class setting without having the students come into a physical
-                                            classroom. It all depends on the WordPress LMS plugin you go with, but
-                                            in general.
+                                            A minimum of 75% attendance is required to appear in the examinations. Attendance of a student is calculated from the date of commencement of program.
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="edu-accordion-item">
-                                    <div class="edu-accordion-header" id="headingFour">
-                                        <button class="edu-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            How long it take to create a video course?
-                                        </button>
-                                    </div>
-                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample1">
-                                        <div class="edu-accordion-body">
-                                            Learning management system, combines a wide range of features to present
-                                            a class setting without having the students come into a physical
-                                            classroom. It all depends on the WordPress LMS plugin you go with, but
-                                            in general.
-                                        </div>
-                                    </div>
-                                </div>
+                             
                             </div>
                         </div>
                     </div>
@@ -675,14 +661,14 @@ $resgal=mysqli_query($dbCon,$qgal);
                                             <i class="on icon-Star"></i>
                                             <i class="on icon-Star"></i>
                                         </div>
-                                        <p class="description">“Lorem ipsum dolor sit amet, consectetur dloril adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.”</p>
+                                        <p class="description">“I had a very good time at OSR College. All the teachers are very friendly and enthusiastic. The lessons are very varied and inspiring. Thank you very much!!!”</p>
                                         <div class="client-info">
                                             <div class="thumbnail">
                                                 <img src="assets/images/testimonial/testimonial-04/client-04.png" alt="Client Images">
                                             </div>
                                             <div class="content">
-                                                <h6 class="title">Michle A. Smith</h6>
-                                                <span class="designation">Web Developer</span>
+                                                <h6 class="title">Ashifa Khan</h6>
+                                                <span class="designation">B. Sc</span>
                                             </div>
                                         </div>
                                     </div>
@@ -694,36 +680,18 @@ $resgal=mysqli_query($dbCon,$qgal);
                                             <i class="on icon-Star"></i>
                                             <i class="on icon-Star"></i>
                                         </div>
-                                        <p class="description">“Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.”</p>
+                                        <p class="description">“Helpful and ample material, motivated and inspirational faculty. Thank you.”</p>
                                         <div class="client-info">
                                             <div class="thumbnail">
-                                                <img src="assets/images/testimonial/testimonial-04/client-01.png" alt="Client Images">
+                                                <img src="assets/images/testimonial/testimonial-01/client-03.png" alt="Client Images">
                                             </div>
                                             <div class="content">
-                                                <h6 class="title">David M. Bard</h6>
-                                                <span class="designation">Laravel Developer</span>
+                                                <h6 class="title">Rakesh Verma</h6>
+                                                <span class="designation">B.A.</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="single-card">
-                                        <div class="rating">
-                                            <i class="on icon-Star"></i>
-                                            <i class="on icon-Star"></i>
-                                            <i class="on icon-Star"></i>
-                                            <i class="on icon-Star"></i>
-                                            <i class="on icon-Star"></i>
-                                        </div>
-                                        <p class="description">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum finibus bonorum.”</p>
-                                        <div class="client-info">
-                                            <div class="thumbnail">
-                                                <img src="assets/images/testimonial/testimonial-04/client-03.png" alt="Client Images">
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="title">Lorraine D. Raines</h6>
-                                                <span class="designation">WordPress Expert</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                             </div>
                             <!-- End Tastimonial Card  -->

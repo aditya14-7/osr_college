@@ -61,9 +61,16 @@ $btitle = "Science Department";
                                 <div class="edu-feature-list color-variation-1" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
                                     <div class="content">
-                                        <h6 class="title">We Offer The Best Carrier</h6>
                                         <p class="description">
-                                            O.S.R. Group of Colleges Lucknow is located on Mahmudabad Road, 20 km from state capital Lucknow. m., 25 km from district headquarter Barabaki and 30 km from Mahmudabad. m. The important and prestigious town of Barabanki district is situated in Kursi. The college is affiliated to Dr. Ram Manohar Lohia Awadh University. This college has been established for the educational and social development of this area. The college is well equipped with the latest equipment/resources and laboratory. Teaching facility for all subjects of Arts and Science stream is available in the college. Wi-Fi-equipped facilities: There is a well-equipped computer lab and a rich library of art, religion, culture as well as all the subjects being run.
+                                        Science is the study of the nature and behaviour of natural things and the knowledge that we obtain about them. Particular branch of science such as physics, chemistry, or biology. Physics is the best example of a science which has developed strong, abstract theories. 
+                                        
+                                            <ul class="my-para">
+                                                <strong>Aim</strong>
+                                                <li>To provide the broader objectives of science that is process skill knowledge curiosity etc.</li>
+                                                <li>To encourage and enable students to develop inquiring minds and curiosity about science and nature.</li>
+                                                <li>To acquire knowledge, conceptual understanding, and skills to solve problems and make informed decisions in scientific contexts.</li>
+                                                <li>To acquire knowledge, conceptual understanding, and skills to solve problems and make informed decisions in scientific contexts.</li>
+                                            </ul>
                                         </p>
                                     </div>
                                 </div>

@@ -1,6 +1,6 @@
 <?php
-$title = "Vision & Mission";
-$btitle = "Vision & Mission";
+$title = "Achievements";
+$btitle = "Achievement";
  ?>
 
 <!doctype html>
@@ -48,26 +48,24 @@ $btitle = "Vision & Mission";
         <!-- vision message (start) -->
         <div class=" eduvibe-home-four-about edu-about-area about-style-2 edu-section-gap bg-color-white">
             <div class="container eduvibe-animated-shape">
-                <div class="row row--50">
-                    <div class="col-lg-6">
+            <div class="row row--50">
+                    <div class="col-lg-4">
                         <div class="about-image-gallery">
-                            <div class="eduvibe-about-1-img-wrapper">
-                                <img class="image-1" src="assets/images/about/about-07/about-image-01.png" alt="About Images" />
+                            <div class="eduvibe-about-1-img-wrapper pr-5">
+                                <img class="image-1" src="assets/images/award/award-01/trophy1.png" style="width: 100%;" alt="About Images" />
+                                <!-- <div class="circle-image"><span></span></div> -->
                                 <span class="eduvibe-about-blur"><img src="assets/images/about/about-07/about-blur.png" alt="About Blur" /></span>
-                            </div>
-                            <div class="circle-image-wrapper">
-                                <img class="image-2" src="assets/images/about/about-07/about-image-02.png" alt="About Images" />
-                                <div class="circle-image"><span></span></div>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div class="inner mt_md--40 mt_sm--40">
                             <div class="section-title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 
-                                <h3 class="title mt-5">Our Achievements</h3>
-                                <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ratione vero ducimus. Iure unde distinctio reprehenderit ea vel rerum, nostrum ratione rem incidunt cupiditate molestias tenetur enim explicabo molestiae facere error aliquid fugiat a eligendi, quo deserunt soluta mollitia blanditiis quam? Voluptatibus facere minus porro perspiciatis ut atque architecto dolores?</p>
+                                <h3 class="title mt-5">Achievements</h3>
+                                <p class="mt-5">Achievement is something that's done with either effort, skill, or courage. Or perhaps a perfect combination of all three. In our college we see our achievement in our students, staffs, management, faculty, infrastructure and the facilities we provide.
+                                    <br><br>
+                                The recognition of our college’s student either in academic, sports or cultural activities, is what achievement mean to us. Highly educated and trained faculty, well-trained staff, well-built infrastructure is what we have as our achievement.</p>
                             </div>
                             
                            
@@ -89,7 +87,6 @@ $btitle = "Vision & Mission";
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
         <!-- vision message (end) -->

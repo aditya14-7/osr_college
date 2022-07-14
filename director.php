@@ -70,6 +70,14 @@ $btitle = "Director's Desk";
                                         <p class="description">
                                         Poor, rich and every section of the society and every community have equal rights on education. Our aim is that no section of the society, especially our girls should not be deprived of education due to any compulsion or lack of financial resources.
                                         Being related to the middle class rural environment, I have experienced the difficulties faced by the students of rural areas especially in the education of girls. For this reason a school has been established in this remote rural area of ​​Barabanki district, so that our children can better compete with the country and the world and bring laurels to their region.
+
+                                        <br><br>
+                                        <strong>
+                                        Mrs. Astha Yadav
+                                        Director <br>
+                                        O.S.R. Group of Colleges
+                                        </strong>
+
                                         </p>
                                     </div>
                                 </div>

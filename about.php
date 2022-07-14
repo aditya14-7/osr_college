@@ -119,7 +119,7 @@ $resgal=mysqli_query($dbCon,$qgal);
                                         <i class="icon-trophy"></i>
                                     </div>
                                     <div class="content">
-                                        <h3 class="counter"><span class="odometer" data-count="10">00</span>
+                                        <h3 class="counter"><span class="odometer" data-count="1">00</span>
                                             <span class="after-icon">+</span>
                                         </h3>
                                         <span class="subtitle">Years of Establishment</span>
